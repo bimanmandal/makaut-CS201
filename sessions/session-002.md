@@ -1,4 +1,5 @@
 # Session 2: Basic Programing Questions
+
 1. A programmer wants to display a welcome message on the screen. Write a program to print **"Hello, World!"**.  
 2. Imagine you are attending a virtual event where you need to introduce yourself. Write a program that displays your name on the screen.  
 3. Two friends want to find the total of their savings. Write a program to calculate the sum of two numbers.  
