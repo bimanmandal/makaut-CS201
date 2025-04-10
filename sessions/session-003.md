@@ -24,3 +24,27 @@
 42. Award grades based on marks using nested if-else statements.  
 43. Given a day number (1-7), determine if it’s a weekday or weekend.  
 44. Write a program to classify a character as uppercase, lowercase, digit, or special character.
+45. A movie theater gives student discounts. Ask if the user is a student (Y/N) and apply a 50% discount if true.
+46. Check if a number is positive, negative, or zero using if-else.
+47. Ask for a number and determine whether it is a single-digit, two-digit, or more.
+48. A shop offers a loyalty reward if the customer has visited more than 10 times.
+49. Ask a user for their age and gender, then determine if they are eligible for a senior citizen scheme (male ≥ 65, female ≥ 60).
+50. Calculate tax based on income: 0% for ≤2.5L, 5% for 2.5L–5L, 10% for 5L–10L, 20% for >10L.
+51. Determine the type of triangle based on sides (equilateral, isosceles, or scalene).
+52. Ask for a speed value. If >100 km/h, print "Over Speeding", if <40, print "Too Slow", else "Normal Speed".
+53. Ask the user to enter a temperature and suggest clothing: "Cold", "Moderate", "Hot".
+54. Ask a user to enter a year and print whether it’s a century year (divisible by 100) or not.
+55. Check if a character is a letter and if it’s uppercase or lowercase.
+56. Based on the time of day (in hours), print "Good Morning", "Good Afternoon", or "Good Evening".
+57. Ask the user for an exam score and print "Pass" or "Fail" (minimum pass is 40).
+58. Ask for rainfall in mm. If >100mm, print “Heavy Rain”, if between 30–100, “Moderate Rain”, else “Light Rain”.
+59. Ask the user for a number and check if it lies within a specific range (10 to 100).
+60. Write a program that reads a month number (1-12) and prints the number of days in that month.
+57. Check if a number is a multiple of 3, 5, or both.
+58. Ask for the user's income and determine subsidy eligibility: below ₹3L = eligible.
+59. Based on user’s entered blood pressure, determine if it's normal, high, or low.
+60. Ask the user for a score and print feedback: “Excellent”, “Good”, “Average”, “Needs Improvement”.
+61. Determine if a number is a perfect square using if-else logic (without math.h).
+62. Ask for age and categorize: child (≤12), teen (13–17), adult (18–60), senior (>60).
+64. A shop applies tiered shipping fees: ₹0 for orders >₹500, ₹30 for ₹100–₹500, ₹50 for <₹100.
+65. A person enters exam marks; check if eligible for scholarship (all subjects ≥85).
