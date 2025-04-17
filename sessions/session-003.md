@@ -40,11 +40,11 @@
 58. Ask for rainfall in mm. If >100mm, print “Heavy Rain”, if between 30–100, “Moderate Rain”, else “Light Rain”.
 59. Ask the user for a number and check if it lies within a specific range (10 to 100).
 60. Write a program that reads a month number (1-12) and prints the number of days in that month.
-57. Check if a number is a multiple of 3, 5, or both.
-58. Ask for the user's income and determine subsidy eligibility: below ₹3L = eligible.
-59. Based on user’s entered blood pressure, determine if it's normal, high, or low.
-60. Ask the user for a score and print feedback: “Excellent”, “Good”, “Average”, “Needs Improvement”.
-61. Determine if a number is a perfect square using if-else logic (without math.h).
-62. Ask for age and categorize: child (≤12), teen (13–17), adult (18–60), senior (>60).
-64. A shop applies tiered shipping fees: ₹0 for orders >₹500, ₹30 for ₹100–₹500, ₹50 for <₹100.
-65. A person enters exam marks; check if eligible for scholarship (all subjects ≥85).
+61. Check if a number is a multiple of 3, 5, or both.
+62. Ask for the user's income and determine subsidy eligibility: below ₹3L = eligible.
+63. Based on user’s entered blood pressure, determine if it's normal, high, or low.
+64. Ask the user for a score and print feedback: “Excellent”, “Good”, “Average”, “Needs Improvement”.
+65. Determine if a number is a perfect square using if-else logic (without math.h).
+66. Ask for age and categorize: child (≤12), teen (13–17), adult (18–60), senior (>60).
+67. A shop applies tiered shipping fees: ₹0 for orders >₹500, ₹30 for ₹100–₹500, ₹50 for <₹100.
+68. A person enters exam marks; check if eligible for scholarship (all subjects ≥85).
