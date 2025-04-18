@@ -30,3 +30,10 @@
 96. Print first 6 whole numbers.
 97. Print numbers from 1 to 10 with step of 2.
 98. Print the number 7, 7 times.
+99. WAP to print the pattern
+```
+   * * * *
+   * * *
+   * * 
+   * 
+```
