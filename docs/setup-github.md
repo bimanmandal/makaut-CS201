@@ -2,7 +2,10 @@
 ### One time
 ```
 git init
+git checkout main
+git branch -m main
 git remote add origin https://repository_url
+git pull --rebase
 ```
 
 ### Everytime
