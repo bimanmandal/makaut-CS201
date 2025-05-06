@@ -1,1 +1,3 @@
 *.out
+programs/output/
+.vscode/
