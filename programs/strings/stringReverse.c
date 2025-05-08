@@ -27,8 +27,5 @@ int main() {
     j ++;
     r1[j] = '\0';
     printf("Reversed String is : %s ", r1);
-
-
-
     return 0;
 }
