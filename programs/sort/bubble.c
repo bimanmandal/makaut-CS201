@@ -4,13 +4,9 @@
  *2. Declare an array a of size n
  *3. Read the array a
  *4. For i range 0 to n - 1
- *      a. For j in 0 to n - 1
- *
- *
- *
- *
- *
- *
+ *      a. For j in 0 to n - 1 -i
+ *          a.1 if a[j] > a[j+1], swap two elements
+ *5. END
  */
 
 #include <stdio.h>
