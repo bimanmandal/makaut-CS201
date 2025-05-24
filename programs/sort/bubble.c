@@ -9,7 +9,7 @@
  *5. END
  */
 
-#include <stdio.h>
+#include<stdio.h>
 
 void printArray(int arr[], int size) {
     for (int i = 0; i < size - 1; i++) {
@@ -18,7 +18,6 @@ void printArray(int arr[], int size) {
     printf("%d\n", arr[size - 1]);
 }
 
-#include<stdio.h>
 
 int main() {
     int a[10] = {15, 10, 2, 49, 35, 30, 5, 17, 37, 9};
