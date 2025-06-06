@@ -7,6 +7,12 @@ void printArray(int arr[], int size) {
     printf("%d\n", arr[size - 1]);
 }
 
+void printArrayV2(int arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        printf("%d\t", arr[i]);
+    }
+}
+
 
 int main() {
 
@@ -24,6 +30,9 @@ int main() {
         a[min] = a[i];
         a[i] = temp;
     }
-    printArray(a, n);
+    for (int i = 0; i < n; i++) {
+        printf("%d\t", a[i]);
+    }
+    // printArray(a, n);
     return 0;
 }

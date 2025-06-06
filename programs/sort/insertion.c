@@ -24,8 +24,6 @@ int main() {
             j--;
         }
         a[j + 1] = key;
-        printf("Stepwise: ");
-        printArray(a, n);
     }
 
     printArray(a, n);
