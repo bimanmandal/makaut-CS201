@@ -1,3 +1,16 @@
+/*
+ * 1. Find the middle
+ * 2. Split the array by middle A[0...mid-1] and A[mid...n-1]
+ * 3. Recursively Apply merge sort in both of them
+ * 4. Merge the two sorted array into a single array
+ * 5. Take two sorted array :
+ *      5.1 Compare the first element of the first array with the first element of second array
+ *      5.2 which ever is small will go to the result array and the array index would be incremented
+ *      5.3 Repeat till one array's index is equal to the size of the array
+ *      5.4 Add the remaining elements of the array to the result array
+ */
+
+
 #include <stdio.h>
 
 
