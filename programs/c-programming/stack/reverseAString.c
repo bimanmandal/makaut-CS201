@@ -1,40 +1,46 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 struct Node {
     char data;
     struct Node* next;
 };
 
-struct Node* createNode(char value) {
-    struct Node* newNode = malloc(sizeof(struct Node));
-    newNode->data = value;
+struct Node* createNode(char data) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = data;
     newNode->next = NULL;
     return newNode;
 }
 
 int isEmpty(struct Node* top) {
+    /*if (top == NULL) {
+        return 1;
+    } else {
+        return 0;
+    }*/
     return top == NULL;
 }
 
-void push(struct Node** top, char value) {
-    struct Node* newNode = createNode(value);
-    newNode->next = *top;
+void push(struct Node** top, char data) {
+    struct Node* newNode = createNode(data);
+    newNode->next = (*top);
     *top = newNode;
-    printf("%c pushed to stack\n", value);
+    printf("%c pushed to stack \n", data);
 }
 
 char pop(struct Node** top) {
     if (isEmpty(*top)) {
-        printf("Stack underflow\n");
+        printf("Stack is empty\n");
         return '\0';
     }
     struct Node* temp = *top;
-    char popped = temp->data;
-    *top = (*top)->next;
+    char data = temp->data;
+    *top = temp->next;
     free(temp);
-    printf("%c popped from stack\n", popped);
-    return popped;
+    printf("%c popped from stack \n", data);
+    return data;
 }
 
 void display(struct Node* top) {
@@ -42,34 +48,41 @@ void display(struct Node* top) {
         printf("Stack is empty\n");
         return;
     }
-    printf("Stack elements: ");
+    printf("Elements of stack are : \n");
     struct Node* temp = top;
-    while (temp) {
-        printf("%c -> ", temp->data);
+    while (temp != NULL) {
+        printf("%c -> \n", temp->data);
         temp = temp->next;
     }
     printf("NULL\n");
 }
 
-// Main function
+
 int main() {
-    char s[150];
-    int i = 0;
+    char str[100];
+    printf("Enter the string\n");
+    fgets(str, 100, stdin);
+
     struct Node* top = NULL;
-
-    printf("Enter a string: ");
-    fgets(s, sizeof(s), stdin);
-
-    while (s[i] != '\n' && s[i] != '\0') {
-        push(&top, s[i]);
+    int i = 0;
+    while (str[i] != '\0' && str[i] != '\n') {
+        push(&top, str[i]);
         i++;
     }
 
     i = 0;
     while (!isEmpty(top)) {
-        s[i]= pop(&top);
+        str[i] = pop(&top);
         i++;
     }
 
-    printf("String  after reversing is %s\n", s);
+    printf("%s\n", str);
+
+
 }
+
+
+
+
+
+
