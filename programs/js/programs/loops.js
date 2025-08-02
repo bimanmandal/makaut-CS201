@@ -59,9 +59,11 @@ let students = ["Ceaser", "Poltus", "Babai", "Biki", "Appu"]
 //     i ++;
 // }
 
-for (const student of students) {
-    console.log(`Hello ${student}!`);
-}
+// for (const student of students) {
+//     console.log(`Hello ${student}!`);
+// }
+
+students.forEach((student) => {console.log(`Hello ${student}!`);});
 
 
 
