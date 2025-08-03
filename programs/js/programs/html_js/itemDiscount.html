@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item Discount</title>
+</head>
+<body>
+  <input type="number" id="price">
+  <button onclick="applyDiscount()">Apply Discount</button>
+  <p id="discountedPrice"></p>
+
+  <script>
+    function applyDiscount() {
+      const price = parseFloat(document.getElementById('price').value);
+      const discountedPrice = price - (0.10 * price);
+      document.getElementById('discountedPrice').textContent = `Price after discount : ${discountedPrice}`;
+    }
+  </script>
+
+
+</body>
+</html>

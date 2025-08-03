@@ -63,8 +63,12 @@ let students = ["Ceaser", "Poltus", "Babai", "Biki", "Appu"]
 //     console.log(`Hello ${student}!`);
 // }
 
-students.forEach((student) => {console.log(`Hello ${student}!`);});
+// students.forEach((student) => {console.log(`Hello ${student}!`);});
 
 
-
+let items = [250, 645, 300, 900, 50]
+for (let i = 0; i < items.length; i++) {
+    items[i] = items[i] - (10 / 100) * items[i];
+}
+console.log(items);
 
