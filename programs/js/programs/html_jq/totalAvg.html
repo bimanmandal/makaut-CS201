@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Sum Program</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 720px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        .inputs {
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input {
+            padding: 5px 10px;
+            width: 400px;
+        }
+
+        button {
+            padding: 5px 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="inputs">
+            <label>Enter marks for English</label>
+            <input type="text" class="marks"/>
+        </div>
+        <div class="inputs">
+            <label>Enter marks for Bengali</label>
+            <input type="text" class="marks"/>
+        </div>
+        <div class="inputs">
+            <label>Enter marks for Maths</label>
+            <input type="text" class="marks"/>
+        </div>
+        <div class="inputs">
+            <label>Enter marks for Science</label>
+            <input type="text" class="marks"/>
+        </div>
+        <div class="inputs">
+            <label>Enter marks for Social Science</label>
+            <input type="text" class="marks"/>
+        </div>
+        
+        <button onclick="calcTotalAndAvg()">Calculate Total and Average</button>
+        <h1 id = "result"></h1>
+    </div>
+
+    <script>
+        function calcTotalAndAvg(){
+            let total = 0;
+            let count = 0;
+
+            $(".marks").each(function() {
+                let value = +($(this).val());
+                total += value;
+                count += 1;
+            })
+
+            let average = total / count;
+            $("#result").text("Total is : "+ total + " Average is "+ average)
+        }
+
+    </script>
+
+
+
+</body>
+</html>

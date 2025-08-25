@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Sum Program</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 720px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        .inputs {
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input {
+            padding: 5px 10px;
+            width: 400px;
+        }
+
+        button {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="inputs">
+            <label>Enter 1st number</label>
+            <input type="text" id="a"/>
+        </div>
+        <div class="inputs">
+            <label>Enter 2nd number</label>
+            <input type="text" id="b"/>
+        </div>
+        <button onclick="sum()">Sum</button>
+        <h1 id = "result"></h1>
+    </div>
+
+    <script>
+        // function sum() {
+        //     let aEle = document.getElementById("a");
+        //     let a = +aEle.value;
+        //     let bEle = document.getElementById("b");
+        //     let b = +bEle.value;
+        //     let sum = a + b;
+
+        //     let resultElement = document.getElementById("result");
+        //     resultElement.innerText = sum
+        // }
+
+        function sum() {
+            let a = +($('#a').val());
+            let b = +($('#b').val());
+            let sum = a + b;
+            $('#result').text("Sum is :"+ sum)
+        }
+
+    </script>
+
+
+
+</body>
+</html>
