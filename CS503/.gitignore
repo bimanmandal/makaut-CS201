@@ -1,0 +1,40 @@
+# Gradle
+build/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+.env.local

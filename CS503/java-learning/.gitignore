@@ -1,0 +1,49 @@
+# Gradle
+build/
+.gradle/
+*.gradle.kts.bak
+gradle-app.setting
+!gradle-wrapper.jar
+.gradle
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.iws
+*.ipr
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+nbproject/
+.nb-gradle/
+*.nbactions.xml
+
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+.env.local
