@@ -1,4 +1,4 @@
-package com.biman.helloworld;
+package com.biman.helloworld.basics;
 
 public class Difference {
     public static void main(String[] args) {

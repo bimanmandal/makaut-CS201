@@ -76,7 +76,7 @@ javac -d build/classes/java/main src/main/java/com/biman/helloworld/TestAppMain.
 
 **Run:**
 ```bash
-java -cp build/classes/java/main com.biman.helloworld.TestAppMain
+java -cp build/classes/java/main com.biman.helloworld.basics.TestAppMain
 ```
 
 **Output:**

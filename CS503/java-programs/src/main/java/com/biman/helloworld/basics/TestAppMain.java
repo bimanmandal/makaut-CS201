@@ -1,4 +1,4 @@
-package com.biman.helloworld;
+package com.biman.helloworld.basics;
 
 class TestAppMain {
 	public static void main(String[] args) {

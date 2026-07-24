@@ -1,4 +1,4 @@
-package com.biman.helloworld;
+package com.biman.helloworld.basics;
 
 import java.util.Scanner;
 
